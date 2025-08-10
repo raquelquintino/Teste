@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <!-- ====== Cabeçalho do feed ====== -->
+    <title>Acervo — Contraponto & Playlist do Zuza</title>
+    <link>https://seusite.exemplo/</link>
+    <description>Feed pessoal para ouvir episódios arquivados. Substitua os links dos áudios pelos seus .mp3.</description>
+    <language>pt-br</language>
+
+    <!-- link para o próprio feed (troque pela URL final do GitHub Pages) -->
+    <atom:link href="https://SEUUSUARIO.github.io/SEUREPO/feed.xml" rel="self" type="application/rss+xml" />
+
+    <!-- Metadados (iTunes/Apple Podcasts) -->
+    <itunes:author>Seu nome</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:category text="Music"/>
+    <itunes:image href="https://SEUUSUARIO.github.io/SEUREPO/capa.jpg"/>
+
+    <lastBuildDate>Sun, 10 Aug 2025 15:39:42 +0000</lastBuildDate>
+    <generator>ChatGPT — starter feed</generator>
+
+    <!-- ====== EPISÓDIO 1 (exemplo) ====== -->
+    <item>
+      <title>Contraponto — 2025-08-03</title>
+      <link>https://cultura.uol.com.br/radio/programas/contraponto/</link>
+      <guid isPermaLink="false">contraponto-2025-08-03</guid>
+      <pubDate>Sun, 03 Aug 2025 18:00:00 -0300</pubDate>
+      <description><![CDATA[
+        Tema: Clássicos que marcaram época. Atualize título, link e descrição conforme seu episódio.
+      ]]></description>
+      <!-- COLE AQUI A URL DIRETA DO MP3 -->
+      <enclosure url="https://exemplo.com/audio/contraponto-2025-08-03.mp3"
+                 length="0"
+                 type="audio/mpeg"/>
+    </item>
+
+    <!-- ====== EPISÓDIO 2 (exemplo) ====== -->
+    <item>
+      <title>Playlist do Zuza — Elis & Adoniran</title>
+      <link>https://radiobatuta.ims.com.br/programas/playlist-do-zuza/</link>
+      <guid isPermaLink="false">zuza-elis-adoniran</guid>
+      <pubDate>Sun, 10 Aug 2025 12:00:00 -0300</pubDate>
+      <description><![CDATA[
+        Repertório comentado por Zuza Homem de Mello. Atualize com sua referência.
+      ]]></description>
+      <!-- COLE AQUI A URL DIRETA DO MP3 -->
+      <enclosure url="https://exemplo.com/audio/zuza-elis-adoniran.mp3"
+                 length="0"
+                 type="audio/mpeg"/>
+    </item>
+
+  </channel>
+</rss>
